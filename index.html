@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/portfolio3.jpg" type="image/x-icon">
+    <title>CC Desarrollo Web</title>
+    
+</head>
+<body>
+    
+<!--SECCION INICIO-->
+
+<section id="inicio">
+    <div class="contenido">
+        <header>
+            <div class="contenido-header">
+                <h1>/CC/</h1>
+                <nav id="nav" class="">
+                   <ul id="links">
+                    <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                    <li><a href="#sobre mi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                    <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                   </ul>
+                </nav>
+
+                <!--ICONOS DEL MENU RESPONSIVE-->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <!--ICONOS DE LAS REDES SOCIALES-->
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="presentacion">
+            <p class="bienvenida">Bienvenidos</p>
+            <h2>Soy <span>Celeste Cordoba</span>, Desarrolladora Web</h2>
+            <p class="descripcion">
+                Soy Desarrolladora Web, vivo en Oviedo Principado de Asturias, me encuentro buscando mi primer trabajo como 
+                desarrolladora, tengo ganas, ideas, compromiso, decisión y voluntad de seguir aprendiendo.
+            </p>
+            <a href="#portfolio">Ir a portafolio</a>
+        </div>
+    </div>
+</section>
+
+<!--SECCION SOBRE MI-->
+
+<section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="img/fotocv.jpg" alt="">
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, Soy <span>Celeste Cordoba</span></h2>
+        <h3>Desarrolladora Web</h3>
+        <p>Tengo 35 Años, vivo en Oviedo principado de Asturias, España. Soy desarrolladora Web y cuento con certificaciones
+            de Coderhouse y Udemy que lo demuestran; Me encuentro buscando mi primer trabajo como desarrolladora, no 
+            tengo experiencia de años pero lo que si tengo es voluntad de seguir aprendiendo, ganas, ambiciones, ideas
+            y compromiso para asumir todo tipo de retos que se me presenten. 
+        </p>
+        <a href="#">Descargar CV</a>
+    </div>
+</section>
+
+<!--SECCION SERVICIOS-->
+
+<section id="servicios">
+    <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Destino Maleta</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <p>Destino Maleta es un sitio Web que cuenta con Html, Css y JavaScript, donde la persona puede
+                ver y buscar viajes, y donde se lo asesora, con guias de viaje.
+            </p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Baristas Coffe</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <p>Sitio Web realizado con Html y Css, y aplicado a dispositivos moviles, en ella puedes ver los distintos tipos
+                de cafe que se venden en una cafetería.
+            </p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Formulario de Registro</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <p>Sitio Web realizado con Html,Css y JavaScript, el mismo contiene animacion, se mueve la pantalla
+                cuando la persona intenta registrarse, no contiene base de datos de php.
+            </p>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Pantalla Dividida</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <p>Es un sitio web muy simple, relaizado con Html y Css, donde sólo demuestro que puede dividirse una 
+                pantalla, donde de un lado podemos poner una imagen y del otro podemos ponerdiferente contenido,
+                no esta diseñado para dispositivos moviles.
+            </p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Yoga Studio</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <p>Sitio Web realizado con Html,Css y Sass, en este sitio las personas pueden ir de un sitio a otro, aprovechando
+                todos los servicios con los cuales dispone el studio, cursos, diferentes estilos del yoga, con sus explicaciones
+                respectivas a cada ejercicio, también cuenta con animaciones sutiles e imagenes de los estilos del yoga.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--SECCION HABILIDADES-->
+
+<div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Html & Css</p>
+            <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+            <div id="html" class="barra-progreso1"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>JavaScript</p>
+            <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+            <div id="js" class="barra-progreso2"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>SASS</p>
+            <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+            <div id="Sass" class="barra-progreso3"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Bootstrap</p>
+            <span class="porcentaje">85%</span>
+        </div>
+        <div class="barra">
+            <div id="bootstrap" class="barra-progreso4"></div>
+        </div>
+    </div>
+</div>
+
+<!--SECCION PORTAFOLIO-->
+
+<section id="portfolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/portada.jpg" alt="">
+            <div class="info">
+                <h4>Destino Maleta</h4>
+                <p>Diseño Web destinado a viajes</p>
+
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/coffe1.jpg" alt="">
+            <div class="info">
+                <h4>Baristas Coffe</h4>
+                <p>Diseño Web destinado a cafetería</p>
+                
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/login1.jpg" alt="">
+            <div class="info">
+                <h4>Formulario de Registro</h4>
+                <p>Diseño Web destinado a registrarse</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img  src="img/fondo.jpg" alt="">
+            <div class="info">
+                <h4>Pantalla Dividida</h4>
+                <p>Diseño Web destinado a como dividir una pantalla</p>
+
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img  src="img/yoga3.jpg" alt="">
+            <div class="info">
+                <h4>Yoga Studio</h4>
+                <p>Diseño Web destinado a un estudio de yoga</p>
+
+            </div>
+        </div>
+    </div>
+  
+</section>
+
+<!-- SECCION CONTACTO -->
+
+<section id="contacto">
+    <h3 class="titulo-seccion">Contactanos</h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre Compleo" class="input-mitad">
+                <input type="text" placeholder="Dirección de Email" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema..." class="input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</section>
+
+<!-- SECCION FOOTER -->
+
+<footer>
+    <p>Todos los derechos reservados - 2024</p>
+    <p>Nacionalidad: Argentina</p>
+    <p>Residencia: España, Oviedo Principado de Asturias</p>
+    <p>Correo: Celeste.cordobaa276@gmail.com</p>
+    <p>Telefono: (+34) 632-535239</p>
+    <p>https://github.com/celescordoba</p>
+    <p>www.linkedin.com/in/celes-cordoba</p>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
